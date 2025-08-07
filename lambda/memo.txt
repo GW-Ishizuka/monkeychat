@@ -1,0 +1,3 @@
+Compress-Archive -Path connect.js, utils.js, node_modules, package.json -DestinationPath connect.zip
+Compress-Archive -Path sendmessage.js, utils.js, node_modules, package.json -DestinationPath sendmessage.zip
+Compress-Archive -Path disconnect.js, utils.js, node_modules, package.json -DestinationPath disconnect.zip
