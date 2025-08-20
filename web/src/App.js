@@ -4,7 +4,7 @@ import ChatApp from './components/ChatApp';
 function App() {
   return (
     <div>
-      <ChatApp wsUrl="wss://9nnkr484ic.execute-api.ap-northeast-1.amazonaws.com/production/" />
+      <ChatApp wsUrl={process.env.REACT_APP_WS_URL} />
     </div>
   );
 }
